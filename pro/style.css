@@ -1,0 +1,126 @@
+.socials-item {
+    width: 47px;
+    height: 47px;
+    background-image: url(images/socials.png);
+}
+.socials {
+    list-style: none;
+}
+
+.socials-item.vk {
+    background-position: -8px -10px;
+}
+.socials-item.vk:hover {
+    background-position: -8px -10px;
+}
+
+.socials-item.tw {
+    background-position: -79px -10px;
+}
+.socials-item.fb {
+    background-position: 127px -10px;
+}
+.socials-item.gt {
+    background-position: 56px -10px;
+}
+.page-header {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    background: #eff3f7 url("images/line.png") bottom center no-repeat;
+}
+.socials {
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.socials-item.vk:hover{
+    background-position: 3.5% 90%;
+}
+.socials-item.tw:hover{
+    background-position: 34.5% 90%;
+}
+.socials-item.fb:hover{
+    background-position: 65% 90%;
+}
+.socials-item.gt:hover{
+    background-position: 96% 90%;
+}
+.menu{
+    width: 260px;
+    margin-left: -40px;
+    list-style: none;
+}
+.link{
+    display: block;
+    text-decoration: none;
+    width:100%;
+    height: 100%;
+    padding: 20px;
+    background: #eff3f7;
+    border-bottom: 3px #37a0c6 solid;
+    text-align: center;
+}
+.link:hover{
+    background: #37a0c6;
+}
+.menu .item:last-child .link{
+    border-bottom: 0;
+}
+.contacts{
+    background: rgba(55, 73, 142, 0.7);
+    padding: 20px;
+    width:260px;
+    border-radius: 10px;
+}
+.cont{
+    color: white;
+    margin: 10px;
+}
+.text{
+    margin-left: 5px;
+    display: inline-block;
+    color: white;
+}
+.pic{
+    margin-top: 5px;
+}
+.container{
+    width: 300px;
+}
+.profile{
+    border-radius: 20px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background: rgba(55, 73, 142, 0.7);
+}
+.all{
+    display: flex;
+    justify-content: center;
+}
+.inf{
+    width: 200px;
+    font-size: 20px;
+    border-bottom: 2px white solid;
+}
+.image{
+    background: url(images/face1.jpg) no-repeat;
+    background-size: 100%;
+    height: 200px;
+    width: 150px;
+    border-radius: 75px;
+}
+.s_text{
+    display: inline-block;
+    color: aqua;
+}
+.super{
+    padding: 5px;
+    display: inline-block;
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin-left: 10px;
+}
