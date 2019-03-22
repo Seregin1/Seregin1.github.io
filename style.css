@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+}
+.main{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+}
+.welcome{
+    width: 500px;
+}
+.pictures{
+    display: flex;
+    justify-content: space-between;
+    width: 670px;
+}
+.text1{
+    color: gray;
+    font-size: 30px;
+}
+.text2{
+    color: gray;
+    margin-top: 60px;
+    font-size: 20px;
+}
+p{
+    color: white;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+.shablon{
+    margin: auto;
+    width: 1170px;
+}
+.shablons{
+    display: flex;
+    justify-content: flex-start;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.date{
+    color: yellow;
+    background-color: #27292d;
+    text-align: center;
+    width: 100px;
+}
+.number{
+    font-size: 60px;
+}
+.day{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.what{
+    font-family: sans-serif;
+    width: 100%;
+    color: #27292d;
+    padding: 15px;
+    font-size: 25px;
+    background-color: yellow;
+}
